@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Facilitating communication with corporate teams</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Mark Ocampo</span>
+								</a>
+
+							<!-- Nav -->
+								<nav id="nav">
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="uploadCaseStudy.html">Case Study: Dissolve Creators</a></li>
+							<li><a href="messenger.html">Case Study: Instant Messenger</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="content">
+						<div class="inner">
+							<h1>Facilitating communication with corporate teams</h1>
+							<span class="image main"><img class="myImages" id="myImg" src="images/messenger/chat_hero.png" srcset="images/messenger/chat_hero.png, images/messenger/chat_hero@2x.png 2x" alt="Dissolve Creators - Profile Page" /></span>
+
+							<!-- My Roles -->
+							<section id="My Roles">
+								<h2>My Roles</h2>
+								<ul>
+									<li>UX Research</li>
+									<li>UX & UI Design</li>
+									<li>Project Management</li>
+								</ul>
+							</section>
+
+							<!-- My Process -->
+							<section id="My Process">
+								<h2>My Process</h2>
+								<figure>
+									<img src="images/designProcess.png" srcset="images/designProcess.png, images/designProcess@2x.png 2x" alt="design process">
+									<figcaption>My design process</figcaption>
+								</figure>
+							</section>
+
+							<!-- Define -->
+							<section id="Define">
+								<h2>Define</h2>
+								<p>Corporate teams use Dissolve's web tools to collaborate directly on the site. However, critical discussion is missed because they cannot instantly communicate on the platform.</p>
+								<ul>
+									<li><strong>What: </strong>Design an instant messenger feature</li>
+									<li><strong>Who: </strong>Corporate teams who work directly on Dissolve’s web app</li>
+									<li><strong>Why: </strong>To facilitate communication between team members</li>
+								</ul>
+							</section>
+
+							<!-- Research -->
+							<section id="Research">
+								<h2>Research</h2>
+								<p>Reverse engineering existing applications lets me gain insights into UX & UI that has been rigorously tested. I studied Facebook and Instagram Messenger to analyze my own experience as a daily social media user. Then I observed Slack to understand why businesses(including my employer) prefer it as their main form of work communication. This method lets me adapt and customize features into my own design.</p>
+								<p>Components I discovered from my research that I adapted into my solution:</p>
+								<ul>
+									<li>Sidebar - Contains primary user controls</li>
+									<li>Message box - Contains secondary user controls</li>
+									<li>Searchbar - Queries message recipients and existing chat sessions</li>
+									<li>Direct/private messaging</li>
+									<li>Group messaging</li>
+									<li>Alert system</li>
+									<li>Workflow integration</li>
+								</ul>
+							</section>
+
+							<!-- Design -->
+							
+							<!-- The Modal -->
+							<div id="myModal" class="modal">
+
+								<!-- The Close Button -->
+								<span class="close">&times;</span>
+							
+								<!-- Modal Content (The Image) -->
+								<img class="modal-content" id="img01">
+							
+								<!-- Modal Caption (Image Text) -->
+								<div id="caption"></div>
+							</div>
+
+							<section id="design">
+								<h2>Design</h2>
+								<p>To visualize the entire system, I outlined user touchpoints together with back-end system processes in a diagram.</p>
+
+								<figure>
+									<img class="myImages" id="myImg" src="images/messenger/chat_architecture.png" srcset="images/messenger/chat_architecture.png, images/messenger/chat_architecture@2x.png 2x" alt="Messenger architecture">
+									<figcaption>Messenger architecture</figcaption>
+								</figure>
+								
+
+								<h3>Prototyping</h3>
+
+								<figure>
+									<img class="myImages" id="myImg" src="images/messenger/messengerInFolders.jpg" srcset="images/messenger/messengerInFolders.jpg, images/messenger/messengerInFolders@2x.jpg 2x" alt="Messenger">
+									<figcaption>Messenger in the web tool</figcaption>
+								</figure>
+								<p>Initial plans were to implement Messenger inside the web tool, but stakeholders agreed it should be available globally accross the site for easy access.</p>
+								<p>I proposed to insert Messenger in the main site navigation as a dropdown panel.</p>
+								<figure>
+									<img class="myImages" id="myImg" src="images/messenger/messenger.png" srcset="images/messenger/messenger.png, images/messenger/messenger@2x.png 2x" alt="Messenger">
+									<figcaption>Messenger dropdown panel</figcaption>
+								</figure>
+								<p><strong>Sidebar Components</strong></p>
+								<ul>
+									<li>Searchbar</li>
+									<li>Direct messages section</li>
+									<li>Online/offline status</li>
+									<li>Group messages section</li>
+									<li>Default corporate chat - automaticlly created</li>
+									<li>New message alerts</li>
+								</ul>
+								<p><strong>Message box components</strong></p>
+								<ul>
+									<li>Header - displays the message recipient or group name</li>
+									<li>Messages section - reading messages</li>
+									<li>Textfield - entering messages</li>
+									<li>Send button - sends textfield input to recipient</li>
+								</ul>
+								<figure>
+									<img class="myImages" id="myImg" src="images/messenger/messengerAfter.png" srcset="images/messenger/messengerAfter.png, images/messenger/messengerAfter@2x.png 2x" alt="Iterated Messenger">
+									<figcaption>Messenger - Iterated </figcaption>
+								</figure>
+								<p><strong>Iterations</strong></p>
+								<ul>
+									<li>Added user avatars to aid user recognition</li>
+									<li>Added time stamps to messages</li>
+									<li>Added a dropdown menu to the groupname - contains tertiary user controls</li>
+									<li>Added group member count and avatars in the group message box header</li>
+									<li>Added a component to add new members in the group message box header</li>
+								</ul>
+								<figure>
+									<img class="myImages" id="myImg" src="images/messenger/groupEditor.png" srcset="images/messenger/groupEditor.png, images/messenger/groupEditor@2x.png 2x" alt="Create/edit group">
+									<figcaption>Create/edit group controls</figcaption>
+								</figure>
+								<p><strong>Create/edit group components</strong></p>
+								<ul>
+									<li>Group name field</li>
+									<li>Add members funtionality</li>
+									<li>Create/attach a workspace functionality - workflow integration</li>
+								</ul>
+
+							</section>
+
+							<!-- Validate -->
+							<section id="validate">
+								<h2>Validate</h2>
+								<p>Designs were reviewed by the product manager and the customer success team who work directly with corporate accounts. Our in-house data analytics team will be capturing various data points on user touchpoints, and user feedback will be documented when the feature goes live. All captured data will enable us to define UX and UI issues that we'll address to improve the application.</p>
+							</section>
+
+							<!-- Outcome -->
+							<section id="outcome">
+								<h2>Outcome</h2>
+								<p>A lite version of messenger for corporate accounts was launched in May 2020. A total of 119 users has sent over 200 messages and created over 100 chat rooms. An overhauled version integrating <a href="uploadCaseStudy.html">Dissolve Creators</a> is currently in development.</p>
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						
+						<section>
+							<h2>Connect</h2>
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/in/mark-ocampo" target="_blank" class="fab fa-linkedin-in"><span class="label"></span></a></li>
+								<li><a href="mailto:markocampo137@gmail.com" target="_blank" class="icon fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+						</section>
+						<ul class="copyright">
+							<li>&copy; Mark Ocampo. All rights reserved</li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/modal.js"></script>
+
+	</body>
+</html>
