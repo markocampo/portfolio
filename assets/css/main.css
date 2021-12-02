@@ -305,11 +305,16 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.1em;
+		font-size: .9em;
+		color:rgba(73, 73, 73, 0.815);
 	}
 
 	h3 {
-		font-size: 1em;
+		font-weight: 600;
+		text-transform: none;
+		letter-spacing: 0;
+		margin: 0 0 .5em 0;
+		font-size: 1.2em;
 	}
 
 	h4 {
@@ -339,7 +344,7 @@ input, select, textarea {
 		}
 
 		h3 {
-			font-size: 0.8em;
+			font-size: 1.1em;
 		}
 
 	}
@@ -3435,4 +3440,21 @@ input, select, textarea {
 			}
 		}
 
+/* Custom */
+
+span.center > h1{
+	text-align: center;
+}
+
+span#intro {
+	background-color: sandybrown;
+}
+
+span#intro > p {
+	font-size: 1.5em;
+	background-color: rgb(65, 65, 65);
+	border-radius: 10px;
+	padding: 1em;
+	color: white;
+}
 		
