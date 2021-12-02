@@ -305,6 +305,11 @@ input, select, textarea {
 		}
 
 	h2 {
+		font-size: 1em;
+		
+	}
+
+	#content h2 {
 		font-size: .9em;
 		color:rgba(73, 73, 73, 0.815);
 	}
@@ -2840,7 +2845,7 @@ input, select, textarea {
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
 					background-color: #333333;
-					opacity: 0.35;
+					opacity: 0.9;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
